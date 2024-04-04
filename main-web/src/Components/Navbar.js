@@ -25,14 +25,14 @@ const Navbar = () => {
               Home
             </Link>
           </li>
-          <li>
-            <ExternalLink
-              className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
-              href="https://robocor-23.cyclic.app/"
-            >
-              Robocor'23
-            </ExternalLink>
-          </li>
+          // <li>
+          //   <ExternalLink
+          //     className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
+          //     href="https://robocor-23.cyclic.app/"
+          //   >
+          //     Robocor'23
+          //   </ExternalLink>
+          // </li>
           // <li>
           //   <ExternalLink
           //     className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
@@ -58,14 +58,14 @@ const Navbar = () => {
               About
             </Link>
           </li>
-          <li>
-            <Link
-              className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
-              to="/team"
-            >
-              Our team
-            </Link>
-          </li>
+          // <li>
+          //   <Link
+          //     className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
+          //     to="/team"
+          //   >
+          //     Our team
+          //   </Link>
+          // </li>
           <li>
             <Link
               className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
@@ -115,22 +115,22 @@ const Navbar = () => {
               Home
             </Link>
           </li>
-          <li onClick={handleNav} className=" p-4 border-b border-gray-600">
-            <ExternalLink
-              className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out  "
-              href="https://robocor-23.cyclic.app/"
-            >
-              Robocor'23
-            </ExternalLink>
-          </li>
-          <li onClick={handleNav} className=" p-4 border-b border-gray-600">
-            <ExternalLink
-              className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out  "
-              href="https://hackfest.cyclic.app/"
-            >
-              HackFest
-            </ExternalLink>
-          </li>
+          // <li onClick={handleNav} className=" p-4 border-b border-gray-600">
+          //   <ExternalLink
+          //     className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out  "
+          //     href="https://robocor-23.cyclic.app/"
+          //   >
+          //     Robocor'23
+          //   </ExternalLink>
+          // </li>
+          // <li onClick={handleNav} className=" p-4 border-b border-gray-600">
+          //   <ExternalLink
+          //     className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out  "
+          //     href="https://hackfest.cyclic.app/"
+          //   >
+          //     HackFest
+          //   </ExternalLink>
+          // </li>
           <li onClick={handleNav} className=" p-4 border-b border-gray-600">
             <Link
               className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
@@ -139,14 +139,14 @@ const Navbar = () => {
               About
             </Link>
           </li>
-          <li onClick={handleNav} className=" p-4 border-b border-gray-600">
-            <Link
-              className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
-              to="/team"
-            >
-              Our team
-            </Link>
-          </li>
+          // <li onClick={handleNav} className=" p-4 border-b border-gray-600">
+          //   <Link
+          //     className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
+          //     to="/team"
+          //   >
+          //     Our team
+          //   </Link>
+          // </li>
           <li onClick={handleNav} className=" p-4 border-b border-gray-600">
             <Link
               className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
